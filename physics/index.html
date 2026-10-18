@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Physica Historia — An Interactive Encyclopedia of Physics</title>
+<link rel="stylesheet" href="lib/katex/katex.min.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="lib/katex/katex.min.js"></script>
+<script defer src="lib/katex/contrib/auto-render.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a href="#/" class="brand"><span class="logo">⚛</span><span>Physica <em>Historia</em></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav">
+    <a href="#/timeline">Timeline</a><a href="#/eras">Eras</a><a href="#/people">People</a><a href="#/fields">Fields</a><a href="#/concepts">Ideas</a><a href="#/map">Idea Tree</a><a href="#/paths">Paths</a><a href="#/demos">Demos</a><a href="#/impact">Impact</a><a href="#/glossary">Glossary</a><a href="https://nikifchris.github.io/Math-history/" target="_blank" rel="noopener">∑ Math</a><a href="#/progress">Progress</a>
+  </nav>
+  <div class="tools"><input id="search" type="search" placeholder="Search physicists, laws, fields…" autocomplete="off"><button id="theme" title="Toggle dark/light">◐</button></div>
+</header>
+<main id="app"><p style="padding:2rem">Loading…</p></main>
+<footer>Physica Historia · An interactive learning encyclopedia of physics from antiquity to today · Companion: <a href="https://nikifchris.github.io/Math-history/">Mathematica Historia</a> · Content stored locally in <code>js/data/</code> · Progress saved in your browser</footer>
+<script src="js/data/eras.js"></script>
+<script src="js/data/fields.js"></script>
+<script src="js/data/people1.js"></script>
+<script src="js/data/people2.js"></script>
+<script src="js/data/concepts1.js"></script>
+<script src="js/data/concepts2.js"></script>
+<script src="js/data/concepts3.js"></script>
+<script src="js/data/concepts4.js"></script>
+<script src="js/data/misc.js"></script>
+<script src="js/demos.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
